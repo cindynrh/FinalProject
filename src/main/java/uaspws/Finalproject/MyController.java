@@ -51,8 +51,8 @@ public class MyController {
         Uaspws datas = new Uaspws();
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        dctrl.destroy(datas.getNim());
-        return "id:"+datas.getNim()+" deleted";
+        dctrl.destroy(datas.getId());
+        return "id:"+datas.getId()+" deleted";
     }
     
     @GetMapping("/GET")
