@@ -117,5 +117,9 @@ public class Uaspws implements Serializable {
     public String toString() {
         return "uaspws.Finalproject.Uaspws[ id=" + id + " ]";
     }
+
+    String getNim() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
